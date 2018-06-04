@@ -131,21 +131,14 @@ end
 
 def num_points_scored(players_name)
   game_hash.each do |location, team_data|
-    team_data.each do |attribute, more_data|
-      if more_data == :points
-        more_data.each do |numbers|
-         return "#{numbers}"
-        end
+    team_data.each do |info, players|
+      players.each do |points|
+        if points == :points
+          return
       end  
     end  
   end  
 end  
-
-
-# if attribute == :favorite_icecream_flavors
-#       value.each do |flavor|
-#         # here, each index element in an ice cream flavor string
-#         puts "#{flavor}"
 
 
 game_hash => home => players => names => scores
