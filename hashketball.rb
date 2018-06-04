@@ -49,7 +49,7 @@ def num_points_scored(players_names)
   game_hash.each do |location, team_data|
     team_data.each do |attribute, more_data|
       if more_data == :points
-        more_data.collect do |numbers|
+        more_data.each do |numbers|
          return "#{numbers}"
         end
       end  
