@@ -135,7 +135,7 @@ def num_points_scored(players_name)
     players.each do |names, names|
       names.each do |points|
         if points == :points
-          players_name.push(points)
+          players_name << points
         end  
       end  
     end  
