@@ -131,10 +131,9 @@ end
 
 def num_points_scored(players_name)
   players_name = []
-  game_hash.each do |location, team_data|
-    binding.pry
-    team_data.each do |info, players|
-      players.each do |points|
+  game_hash.each do |home, players|
+    players.each do |names, names|
+      names.each do |points|
         if points == :points
           players_name.push(points)
         end  
@@ -143,8 +142,6 @@ def num_points_scored(players_name)
   end  
   players_name
 end  
-num_points_scored(players_name)
-
 
 # game_hash => home => players => names => scores
 # game_hash => away => players => names => scores
