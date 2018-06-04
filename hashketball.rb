@@ -63,3 +63,7 @@ end
 #         # here, each index element in an ice cream flavor string
 #         puts "#{flavor}"
 
+
+game_hash => home => players => names => scores
+game_hash => away => players => names => scores
+
