@@ -134,7 +134,7 @@ def num_points_scored(players_name)
   game_hash.each do |home, players|
     players.each do |names, points|
       if points == :points
-          players_name << points
+          players_name.push(points)
       end  
     end  
   end  
