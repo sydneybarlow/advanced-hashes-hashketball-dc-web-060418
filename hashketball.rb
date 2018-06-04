@@ -141,8 +141,7 @@ def num_points_scored(players_name)
   end  
   players_name
 end  
-
+end
 
 # game_hash => home => players => names => scores
 # game_hash => away => players => names => scores
-
