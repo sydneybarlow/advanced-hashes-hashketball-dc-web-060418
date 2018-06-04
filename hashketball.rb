@@ -56,7 +56,6 @@ def num_points_scored
     end  
   end  
 end  
-num_points_scored
 
 
 # if attribute == :favorite_icecream_flavors
