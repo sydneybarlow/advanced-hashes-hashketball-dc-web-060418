@@ -7,7 +7,14 @@ def game_hash
       :colors => ["Black", "White"],
       :players => { 
         "Jeff Adrian" => {
-            
+            :number
+            :shoe
+            :points
+            :rebounds
+            :assists
+            :steals
+            :blocks
+            :slam_dunks
         }
       }
       {
