@@ -132,11 +132,9 @@ end
 def num_points_scored(players_name)
   players_name = []
   game_hash.each do |home, players|
-    players.each do |names, names|
-      names.each do |points|
-        if points == :points
+    players.each do |names, points|
+      if points == :points
           players_name << points
-        end  
       end  
     end  
   end  
