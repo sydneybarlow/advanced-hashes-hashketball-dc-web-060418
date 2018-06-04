@@ -45,7 +45,7 @@ def good_practices
   end
 end
 
-def num_points_scored
+def num_points_scored(players_names)
   game_hash.each do |location, team_data|
     team_data.each do |attribute, more_data|
       if more_data == :points
